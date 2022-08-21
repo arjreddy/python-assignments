@@ -1,3 +1,4 @@
+# prints range from 1 to num.
 def printRange(num):
     if num==0:
         return;
@@ -6,6 +7,7 @@ def printRange(num):
 
 def main():
     num=int(input('Enter a number: '))
+    print("Range from 1 to ",num," is:")
     printRange(num)
     
 if __name__=='__main__':
