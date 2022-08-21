@@ -1,3 +1,4 @@
+# prints starts for n lines
 def printStars(n):
     if n==0:
         return
@@ -7,7 +8,8 @@ def printStars(n):
     print()
       
 def main():
-    n=int(input("Enter n: "))
+    n=int(input("Enter number: "))
+    print("print start semi-pyramid of ",n," lines")
     printStars(n)
 
 
